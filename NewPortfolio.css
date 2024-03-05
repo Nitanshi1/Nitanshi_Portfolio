@@ -1,0 +1,26 @@
+body{
+    background-image: "pexels-photo-1103970.webp";
+}
+
+/* .container:hover{
+    background-color: aqua;
+    color: black;
+} */
+
+.social-icons a {
+    display: flex;
+    flex-direction:row-reverse;
+    margin: 0 10px;
+    color: #212020;
+    text-decoration: none;
+    font-size: 1em;
+    transition: transform 0.3s ease-out;
+    gap: 10px;
+}
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+.container2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
